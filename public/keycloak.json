@@ -1,0 +1,8 @@
+{
+  "realm": "master",
+  "auth-server-url": "https://keycloak.k8s.starkenberg.net/auth/",
+  "ssl-required": "external",
+  "resource": "movies-web",
+  "public-client": true,
+  "confidential-port": 0
+}
