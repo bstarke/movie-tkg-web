@@ -10,7 +10,7 @@ const useMovies = () => {
       let myHeaders = new Headers({
         'Authorization': 'Bearer ' + keycloak.token
       });
-      const rsp = await fetch("https://movies-api.k8s.starkenberg.net/v1/movies/", {headers:myHeaders});
+      const rsp = await fetch("http://localhost:8080/v1/movies", {headers:myHeaders});
       const movies: MovieItem[] = await rsp.json();
       setAllMovies(movies);
     };

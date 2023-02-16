@@ -27,7 +27,7 @@ function MovieDetails({movie}: MovieProps) {
         <Grid container>
           <Grid item md={1} />
           <Grid item md={4}>
-            <img className="poster" src={movie.movie.Poster} alt={movie.movie.imdbID}/>
+            <img className="poster" src={`http://localhost:8080${movie.movie.Poster}`} alt={movie.movie.imdbID}/>
           </Grid>
           <Grid item md={6}>
             <Typography variant="h6">IMDB Rating: {movie.movie.imdbRating}</Typography>

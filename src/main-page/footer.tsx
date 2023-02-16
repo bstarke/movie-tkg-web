@@ -12,7 +12,7 @@ export default function Footer() {
       <Container>
         <Toolbar>
           <Box display='flex' flexGrow={1}>
-            <Typography>Version: 1.0.5</Typography>
+            <Typography>Version: 1.0.0</Typography>
           </Box>
           <Typography>©{currentYear} Brad Starkenberg</Typography>
         </Toolbar>
